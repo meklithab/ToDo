@@ -26,6 +26,9 @@ form{
     width: 15rem;
     color: rgb(28, 28, 166);
     margin: 0.5rem;
+    border: none;
+    border-bottom: 2px solid rgb(28, 28, 166);
+
 
 
 }

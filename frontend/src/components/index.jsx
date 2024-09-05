@@ -83,6 +83,9 @@ export default function Todo() {
 
     }
 
+
+
+
     return (
         <div className="container">
             <h1>TODO</h1>
@@ -110,7 +113,9 @@ export default function Todo() {
                         <div key={index} className="tasks">
 
 
-                            <div className="task-name">{t.text} </div >
+                            <div className="task-name">
+                                 {t.text}
+                            </div >
                             <div className="task-button">
                                 <button onClick={() => { handleEdit(t._id, t.text) }} className="action-buttons"><HiOutlinePencilAlt /></button>
                                 <button onClick={() => { handleDelete(t._id) }} className="action-buttons"><HiOutlineTrash /></button></div>
